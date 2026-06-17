@@ -1,0 +1,5 @@
+*/PCB-backups
+
+*.kicad_pcb.lck
+*.kicad_sch.lck
+*.kicad_pro.lck
