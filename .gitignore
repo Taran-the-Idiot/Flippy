@@ -3,3 +3,9 @@
 *.kicad_pcb.lck
 *.kicad_sch.lck
 *.kicad_pro.lck
+
+PCB/_autosave-PCB.kicad_pcb
+PCB/_autosave-SCH.kicad_pcb
+
+
+*.DS_Store
