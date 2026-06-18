@@ -526,9 +526,17 @@
         "wire_width": 6
       },
       {
-        "name": "POWER",
+        "name": "MAGNET",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": ""
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "tuning_profile": "",
@@ -549,6 +557,14 @@
       {
         "netclass": "POWER",
         "pattern": "GND"
+      },
+      {
+        "netclass": "MAGNET",
+        "pattern": "OUT1"
+      },
+      {
+        "netclass": "MAGNET",
+        "pattern": "OUT2"
       }
     ]
   },
@@ -680,7 +696,7 @@
         "uuid": "cdb7748a-e4ea-465a-80fd-c707816a3e95"
       }
     ],
-    "used_designators": "D1,R3-5,J3-4,#PWR6,#PWR12-15,U2",
+    "used_designators": "D1,R3-5,J3-4,#PWR6,#PWR10,#PWR12-16,U2",
     "variants": []
   },
   "sheets": [
