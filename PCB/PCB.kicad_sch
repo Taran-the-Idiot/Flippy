@@ -2017,7 +2017,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+24V"
+		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2042,7 +2042,7 @@
 					)
 				)
 			)
-			(property "Value" "+24V"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2074,7 +2074,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2096,7 +2096,7 @@
 					)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2134,7 +2134,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4568,7 +4568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "power:+12V")
 		(at 88.9 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -4590,14 +4590,15 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
-			(at 88.9 33.02 0)
+		(property "Value" "+12V"
+			(at 91.44 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4622,7 +4623,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 88.9 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5366,7 +5367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "power:+12V")
 		(at 242.57 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -5388,14 +5389,15 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
-			(at 242.57 111.76 0)
+		(property "Value" "+12V"
+			(at 245.11 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5420,7 +5422,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 242.57 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6828,7 +6830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "power:+12V")
 		(at 39.37 179.07 0)
 		(unit 1)
 		(body_style 1)
@@ -6850,8 +6852,8 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
-			(at 39.3699 175.26 90)
+		(property "Value" "+12V"
+			(at 41.91 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6883,7 +6885,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 39.37 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8739,7 +8741,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "power:+12V")
 		(at 193.04 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -8761,14 +8763,15 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
-			(at 193.04 34.29 0)
+		(property "Value" "+12V"
+			(at 195.58 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8793,7 +8796,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 193.04 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11183,7 +11186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "power:+12V")
 		(at 91.44 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -11205,14 +11208,15 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
-			(at 91.44 106.68 0)
+		(property "Value" "+12V"
+			(at 93.98 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11237,7 +11241,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 91.44 111.76 0)
 			(hide yes)
 			(show_name no)
