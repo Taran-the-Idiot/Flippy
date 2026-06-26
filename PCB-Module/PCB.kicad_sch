@@ -5,6 +5,146 @@
 	(uuid "cdb7748a-e4ea-465a-80fd-c707816a3e95")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2017,6 +2157,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BC817"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC817"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC817_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC817_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -3075,6 +3458,26 @@
 		)
 		(uuid "fe336f1b-e77a-4c9f-8f49-69e7fc057ca7")
 	)
+	(label "IO2"
+		(at 83.82 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08f8501f-c7ee-4ed6-8678-285c9e2bd34b")
+	)
+	(label "IO4"
+		(at 87.63 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c612535-05c7-423c-bd23-8f174165d77a")
+	)
 	(label "OUT2"
 		(at 102.87 21.59 0)
 		(effects
@@ -3105,7 +3508,7 @@
 		)
 		(uuid "2136641a-fe22-43a9-b9ac-3272c43fdf0c")
 	)
-	(label "IO2"
+	(label "TOUT4"
 		(at 203.2 106.68 180)
 		(effects
 			(font
@@ -3125,7 +3528,7 @@
 		)
 		(uuid "26bf3208-aac7-47da-90e9-9d203d5cd2e9")
 	)
-	(label "IO1"
+	(label "OUT2"
 		(at 153.67 26.67 180)
 		(effects
 			(font
@@ -3155,16 +3558,6 @@
 		)
 		(uuid "3867f78a-9178-4bcb-b919-d2f00f5f4d80")
 	)
-	(label "IO2"
-		(at 48.26 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b2f597e-cbcd-4ccd-8bd0-90803d6ba300")
-	)
 	(label "OUT1"
 		(at 256.54 110.49 0)
 		(effects
@@ -3175,7 +3568,7 @@
 		)
 		(uuid "44f858e0-e6b3-42ac-bc9b-38cb65b7a0ae")
 	)
-	(label "IO1"
+	(label "OUT3"
 		(at 68.58 140.97 0)
 		(effects
 			(font
@@ -3194,6 +3587,26 @@
 			(justify left bottom)
 		)
 		(uuid "57a69b0a-6877-453b-9802-a0dcb32731eb")
+	)
+	(label "TOUT3"
+		(at 95.25 142.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "582bb04f-ce49-46d9-b453-9b54bf5fd62a")
+	)
+	(label "ROW"
+		(at 95.25 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b1e301c-a918-4b57-b977-92879f63b9e8")
 	)
 	(label "OUT2"
 		(at 256.54 100.33 0)
@@ -3225,6 +3638,16 @@
 		)
 		(uuid "67af1e0b-d742-49ae-9e93-9663fee1220d")
 	)
+	(label "TOUT1"
+		(at 91.44 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68c273c3-5edd-41dd-9faa-20e3bdc125ce")
+	)
 	(label "OUT1"
 		(at 105.41 105.41 0)
 		(effects
@@ -3235,7 +3658,17 @@
 		)
 		(uuid "6a2d007d-6653-4fa2-be55-776188811bad")
 	)
-	(label "IO1"
+	(label "IO5"
+		(at 243.84 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e0ce836-9080-4d8d-8d2e-bb3fa55eea4e")
+	)
+	(label "OUT2"
 		(at 170.18 68.58 0)
 		(effects
 			(font
@@ -3245,7 +3678,7 @@
 		)
 		(uuid "7d749c68-c8e7-4913-915e-6638acc0cbda")
 	)
-	(label "IO2"
+	(label "TOUT3"
 		(at 52.07 101.6 180)
 		(effects
 			(font
@@ -3265,7 +3698,17 @@
 		)
 		(uuid "84fd5507-8d0c-4d0c-817a-647e28d20df1")
 	)
-	(label "IO1"
+	(label "TOUT2"
+		(at 193.04 68.58 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89a22824-c744-4aa8-b74a-3e363adbcf95")
+	)
+	(label "OUT4"
 		(at 219.71 146.05 0)
 		(effects
 			(font
@@ -3275,7 +3718,7 @@
 		)
 		(uuid "8a267de1-838b-4a1e-8a76-11ab1e888fb0")
 	)
-	(label "IO1"
+	(label "OUT3"
 		(at 52.07 99.06 180)
 		(effects
 			(font
@@ -3285,7 +3728,7 @@
 		)
 		(uuid "8ac47fa2-386b-47c3-b860-f24bfea2f7c5")
 	)
-	(label "IO2"
+	(label "TOUT1"
 		(at 49.53 27.94 180)
 		(effects
 			(font
@@ -3295,7 +3738,37 @@
 		)
 		(uuid "8b79119c-6155-4747-87ba-7022f2ddcbad")
 	)
-	(label "IO1"
+	(label "TOUT4"
+		(at 251.46 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d8f3b7c-1cf3-42a9-a88e-9a4d9c0bac27")
+	)
+	(label "TOUT1"
+		(at 48.26 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f185642-b724-4c08-bff6-c62f857e379f")
+	)
+	(label "SLEEP"
+		(at 62.23 179.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "915872d5-321b-4f0b-9594-8ef023904155")
+	)
+	(label "OUT1"
 		(at 49.53 25.4 180)
 		(effects
 			(font
@@ -3314,16 +3787,6 @@
 			(justify left bottom)
 		)
 		(uuid "953d6215-97e4-4ab1-899d-ffa11b9a352a")
-	)
-	(label "SLEEP"
-		(at 62.23 179.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "999b5b07-8854-425a-a501-ef68541548db")
 	)
 	(label "OUT2"
 		(at 105.41 95.25 0)
@@ -3345,6 +3808,16 @@
 		)
 		(uuid "bc737a6c-5b4c-4b73-b4ab-a749b31595ad")
 	)
+	(label "IO3"
+		(at 185.42 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc753192-7ed5-42e3-af5c-06abc0a9b176")
+	)
 	(label "SLEEP"
 		(at 43.18 104.14 180)
 		(effects
@@ -3365,7 +3838,7 @@
 		)
 		(uuid "bee1c0f3-8c89-4259-9fb0-a38bfdb54cef")
 	)
-	(label "IO2"
+	(label "TOUT2"
 		(at 153.67 29.21 180)
 		(effects
 			(font
@@ -3395,7 +3868,7 @@
 		)
 		(uuid "d2d7c3b7-591c-41c7-9704-ee5ff03f625c")
 	)
-	(label "IO1"
+	(label "OUT4"
 		(at 203.2 104.14 180)
 		(effects
 			(font
@@ -3405,7 +3878,7 @@
 		)
 		(uuid "db81cd89-13cb-4904-993b-4f9a942e64b6")
 	)
-	(label "IO5"
+	(label "TOUT4"
 		(at 201.93 140.97 180)
 		(effects
 			(font
@@ -3415,7 +3888,7 @@
 		)
 		(uuid "de3d6f1a-bd4a-4153-bf32-56e1cd22da9d")
 	)
-	(label "IO4"
+	(label "TOUT3"
 		(at 50.8 135.89 180)
 		(effects
 			(font
@@ -3424,6 +3897,26 @@
 			(justify right bottom)
 		)
 		(uuid "e3bf94cb-fa42-4539-b028-7981e99fe42b")
+	)
+	(label "ROW"
+		(at 91.44 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e571d5a9-5d93-40b0-b49c-b4aa3a3d7bfe")
+	)
+	(label "ROW"
+		(at 72.39 179.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e891c263-ad55-4278-8555-ca9f7e8ee82a")
 	)
 	(label "OUT2"
 		(at 207.01 22.86 0)
@@ -3435,7 +3928,7 @@
 		)
 		(uuid "e95903af-cd5e-4123-be73-bd3b83248850")
 	)
-	(label "IO3"
+	(label "TOUT2"
 		(at 152.4 63.5 180)
 		(effects
 			(font
@@ -3445,7 +3938,7 @@
 		)
 		(uuid "ea2c7de8-ac58-451f-9abe-71d799751c96")
 	)
-	(label "IO1"
+	(label "OUT1"
 		(at 66.04 67.31 0)
 		(effects
 			(font
@@ -3475,6 +3968,16 @@
 		)
 		(uuid "f7fbd0d5-e599-4d86-8050-124a25333f75")
 	)
+	(label "ROW"
+		(at 251.46 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "faaff2b7-71ab-4b4f-9e9c-755ad1eff8e1")
+	)
 	(label "IO3"
 		(at 54.61 179.07 90)
 		(effects
@@ -3484,6 +3987,16 @@
 			(justify left bottom)
 		)
 		(uuid "fb3032a5-6408-456c-ac5d-66027cafd0d3")
+	)
+	(label "ROW"
+		(at 193.04 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd4162bc-74aa-4d34-b406-385f39b23d32")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3915,7 +4428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 91.44 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4098,7 +4611,7 @@
 		(fields_autoplaced yes)
 		(uuid "12343b8d-ff29-4103-8369-8fdfc3824cb9")
 		(property "Reference" "J1"
-			(at 46.99 183.515 0)
+			(at 57.15 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4108,7 +4621,7 @@
 			)
 		)
 		(property "Value" "GPIO/Control"
-			(at 49.53 183.515 0)
+			(at 57.15 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4117,7 +4630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 57.15 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -4249,6 +4762,116 @@
 			(project "PCB"
 				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 248.92 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25108ef8-413c-487a-8fb8-09429449aff0")
+		(property "Reference" "Q4"
+			(at 254 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SC1623"
+			(at 254 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 254 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 248.92 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 248.92 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 248.92 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 248.92 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23021f60-c751-4151-ab79-956fe9e8bfdf")
+		)
+		(pin "2"
+			(uuid "0b630ece-f40c-4ad3-b558-7e8cb9bd06a1")
+		)
+		(pin "3"
+			(uuid "b5af9098-487a-4eff-81d7-524b515ab776")
+		)
+		(instances
+			(project "PCB"
+				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4880,6 +5503,85 @@
 			(project "PCB"
 				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 72.39 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41743f70-ad7c-4877-a7ea-4b1052f4a03e")
+		(property "Reference" "J11"
+			(at 73.66 182.2449 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 73.66 184.7849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 72.39 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 72.39 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9636728-949f-4ea7-bcbe-462c82e456fa")
+		)
+		(instances
+			(project "PCB"
+				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -5529,6 +6231,116 @@
 			(project "PCB"
 				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 88.9 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e43ac34-c561-4399-aa84-a5b278c60260")
+		(property "Reference" "Q1"
+			(at 93.98 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SC1623"
+			(at 93.98 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 93.98 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 88.9 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f222ebb3-8ae1-4169-8dd2-8df7fa466a2c")
+		)
+		(pin "2"
+			(uuid "9ac07a09-6d7c-4dca-95dd-6f678329a5e8")
+		)
+		(pin "3"
+			(uuid "1c7dbd02-cbb7-48de-9660-fe0678baf018")
+		)
+		(instances
+			(project "PCB"
+				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7969,7 +8781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 193.04 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8051,7 +8863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly"
 			(at 118.11 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8206,7 +9018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 88.9 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8486,6 +9298,116 @@
 			(project "PCB"
 				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 92.71 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8c5e8af-bd48-441e-8ba5-80dfb56a9479")
+		(property "Reference" "Q3"
+			(at 97.79 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SC1623"
+			(at 97.79 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 97.79 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 92.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 92.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 92.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 92.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24d63f81-75ad-4907-97dd-0bf81f6cefb9")
+		)
+		(pin "2"
+			(uuid "b1daafd6-483d-4727-baec-5b1f402e7ca0")
+		)
+		(pin "3"
+			(uuid "227c414d-73aa-4f8e-9619-cd2a8c317f18")
+		)
+		(instances
+			(project "PCB"
+				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10583,7 +11505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly"
 			(at 95.25 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10620,6 +11542,116 @@
 			(project "PCB"
 				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC817")
+		(at 190.5 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d255cdb6-37e5-462e-a24a-b6f82ab8ec77")
+		(property "Reference" "Q2"
+			(at 195.58 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SC1623"
+			(at 195.58 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 195.58 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df4bd3e7-1e5b-4352-8f14-55cf15329d20")
+		)
+		(pin "2"
+			(uuid "308aced0-6f66-474b-a6f5-f447505a7458")
+		)
+		(pin "3"
+			(uuid "6cf3eec0-b233-49a9-b15a-2736461253f1")
+		)
+		(instances
+			(project "PCB"
+				(path "/cdb7748a-e4ea-465a-80fd-c707816a3e95"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -11692,7 +12724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 242.57 119.38 0)
 			(hide yes)
 			(show_name no)

@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB-PD.kicad_pro",
+    "filename": "PCB-Controller.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,9 +643,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB-PD.kicad_sch",
+        "filename": "PCB-Controller.kicad_sch",
         "name": "Root",
-        "uuid": "250b68ab-ea1e-49bc-b84e-90b3c92181cc"
+        "uuid": "9ed6f97a-8bc2-48f6-ad2b-43f8f98985b6"
       }
     ],
     "used_designators": "",
@@ -653,7 +653,7 @@
   },
   "sheets": [
     [
-      "250b68ab-ea1e-49bc-b84e-90b3c92181cc",
+      "9ed6f97a-8bc2-48f6-ad2b-43f8f98985b6",
       "Root"
     ]
   ],
